@@ -11,12 +11,12 @@ pkg install python2
 
 pkg install git
 
-pip2 install mechanize
+pip install mechanize
 
-pip2 install requests
+pip install requests
 
 git clone https://github.com/toxicnoobs/TKey
 
 cd TKey
 
-python2 key.py
+python key.py
