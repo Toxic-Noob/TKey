@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #Coded By Dark Slad3
-#A Product Of Toxic Noobs
+#A Product Of ToxicNoob
 
 import os,sys,time
 from time import sleep
@@ -28,40 +28,43 @@ gt = "\033[0;32m"
 
 os.system("clear")
 
+def logopsb(z):
+    for e in z + '\n':
+        sys.stdout.write(e)
+        sys.stdout.flush()
+        time.sleep(0.003)
+
 def jalan(z):
 	for e in z + '\n':
 		sys.stdout.write(e)
 		sys.stdout.flush()
-		time.sleep(3.0 / 200)
+		time.sleep(0.03)
 
 def psb(z):
 	for e in z + '\n':
 		sys.stdout.write(e)
 		sys.stdout.flush()
-		time.sleep(00000.1)
+		time.sleep(0.04)
     
 os.system("clear")
 time.sleep(1)
 print ("\033[92m")
-os.system("figlet Toxic Noobs")
-print("\033[3;90m 			      Security is a Illusion\033[0;92m")
+print(" _____         _      _   _             _     \n|_   _|____  _(_) ___| \ | | ___   ___ | |__  \n  | |/ _ \ \/ / |/ __|  \| |/ _ \ / _ \| '_ \ \n  | | (_) >  <| | (__| |\  | (_) | (_) | |_) |\n  |_|\___/_/\_\_|\___|_| \_|\___/ \___/|_.__/ \n                                              ")
+print("\033[3;90m 			  Security is a Illusion\033[0;92m")
 time.sleep(0.6)
 psb("\n\n[!] Loading.....")
 time.sleep(0.7)
 psb("\n[!] Please Wait.....")
 time.sleep(1)
 
+print("\033[0;92m")
 os.system("clear")
 time.sleep(0.5)
-os.system("figlet TKey")
-print("		A Product of Toxic Noobs")
-time.sleep(0.7)
-print
-print("\033[1;94m────────────────────────────────────────────\x1b[1;94m")
-print ("\033[1;92m▸ \033[92mAuthor   : M4lW4r3")
-print ("\033[1;92m▸ \033[92mGithub   : https://github.com/toxicnoobs")
-print("\033[1;94m────────────────────────────────────────────")
-time.sleep(0.3)
+logopsb(" _____ _  __          \n|_   _| |/ /___ _   _ \n  | | | ' // _ \ | | |\n  | | | . \  __/ |_| |\n  |_| |_|\_\___|\__, |\n                |___/ ")
+logopsb("\033[3;90m	A Product Of ToxicNoob\033[0;92m")
+time.sleep(0.6)
+logopsb("\033[34m\n|****************************************************| \n|\033[3m Author   : DarkSlad3                               \033[0;34m|\n|\033[3m Tool     : Termux Keys                             \033[0;34m|\n|\033[3m Version  : 1.0                                     \033[0;34m|\n|\033[3m Link     : https://www.github.com/Toxic-Noob/	     \033[0;34m|\n|\033[3m Coded By : DarkSlad3        		     	     \033[0;34m|\n******************************************************")
+time.sleep(0.8)
                                 
 def toxickey():
 		psb(' \033[1;33m\n[!] Process Started.....')
@@ -86,8 +89,8 @@ def toxickey():
 		sleep(0.8)
 		sleep(1)
 		os.system("clear")
-		os.system("figlet Toxic Noobs")
-		print("\033[3;90m 			      Security is a Illusion\033[0;37;40m")
+		print(" _____         _      _   _             _     \n|_   _|____  _(_) ___| \ | | ___   ___ | |__  \n  | |/ _ \ \/ / |/ __|  \| |/ _ \ / _ \| '_ \ \n  | | (_) >  <| | (__| |\  | (_) | (_) | |_) |\n  |_|\___/_/\_\_|\___|_| \_|\___/ \___/|_.__/ \n                                              ")
+		print("\033[3;90m 			   Security is a Illusion\033[0;37;40m")
 		time.sleep(0.5)
 		print
 		print
